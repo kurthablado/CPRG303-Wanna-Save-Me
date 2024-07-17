@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50; /* Green for header */
+    background-color: #4CAF50; 
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -35,18 +35,23 @@ header h1 {
 nav.flex {
     display: flex;
     justify-content: space-around;
-    background-color: #FFD700; /* Gold for nav */
+    background-color: #FFD700; 
     padding: 10px 0;
 }
 
 nav a {
     text-decoration: none;
-    color: #4CAF50; /* Green for nav links */
+    color: #4CAF50; 
     font-weight: bold;
 }
 
 nav a:hover {
     text-decoration: underline;
+}
+
+/** Home styling **/
+h2 , section p{
+    text-align: center;
 }
 
 .flex-container {
@@ -58,14 +63,14 @@ nav a:hover {
 .daily-spending, .spending-input {
     background-color: white;
     border: 1px solid #ddd;
-    padding: 20px;
-    width: 300px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px 30px 35px 20px;
+    width: 25%;
+    box-shadow: 0 2px 4px black;
 }
 
 .daily-spending h3, .spending-input h3 {
     margin-top: 0;
-    color: #4CAF50; /* Green for headings */
+    color: #4CAF50; 
 }
 
 label {
@@ -79,7 +84,7 @@ input, button {
 }
 
 button {
-    background-color: #4CAF50; /* Green for buttons */
+    background-color: #4CAF50; 
     color: white;
     border: none;
     cursor: pointer;
@@ -89,9 +94,14 @@ button:hover {
     background-color: #45a049;
 }
 
-/*********** Home Page ***********/
+/** Transactions styling **/
 
-.index {
-    background-color: #f2f2f2;
-    padding: 20px;
+.income {
+    color: green;
+    font-weight: bold;
+}
+
+.expense {
+    color: red;
+    font-style: italic;
 }

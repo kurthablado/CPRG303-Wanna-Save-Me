@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/styles.css" />
 </head>
-<body class="index">
 <header>
     <a href="index.html" class="flex">
         <img src="" alt="Logo">
@@ -28,41 +27,32 @@
     </nav>
     
     <body>
-        <header>
-            <nav>
-                <a href="transactions.html">Transactions</a>
-                <a href="account-balance.html">Account Balance</a>
-            </nav>
-        </header>
         <main>
             <section>
-                <h2>Welcome!</h2>
-                <p>Welcome to our online banking portal. Please use the navigation links above to view your transaction history or check your account balance.</p>
+                <h2>Welcome to your portal to savings!</h2>
+                <p>Please use the navigation links above to view your transaction history or check your account balance.</p>
             </section>
         </main>
-    </body>
     </html>
 
     <div class="flex-container">
-        <section class="daily-spending">
-            <h3>Daily Spending Box</h3> 
+        <section class="spending-input">
+            <h3>Monthly Budget</h3>
+        </section>
+        <section class="spending-input">
+            <h3>Amount Spent</h3>
         </section>
     </div>
 
     <div class="flex-container">
-        <section class="spending-input">
-            <form>
-                <label for="expense-name">Expense:</label><br>
-                <input type="text" id="expense-name" name="expense-name" required><br><br>
-                
-                <label for="expense-amount">Amount:</label><br>
-                <input type="number" id="expense-amount" name="expense-amount" required><br><br>
-                
-                <label for="expense-date">Date:</label><br>
-                <input type="date" id="expense-date" name="expense-date" required><br><br>
-                
-                <button type="submit">Add Expense</button>
-            </form>
+        <section class="daily-spending">
+            <h3>Your Account Balance</h3> 
+        </section>
+    </div>
+
+    <div class="flex-container">
+        <section class="daily-spending">
+            <h3>Past Transactions </h3>
         </section>
     </div>
 </main>
