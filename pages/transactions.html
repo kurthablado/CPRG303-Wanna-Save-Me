@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Transactions</title>
-        <link rel="stylesheet" href="../css/styles.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>Transactions</title>
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body class="index">
+<header>
+    <a href="../index.html">Home</a>
+        <img src="" alt="Logo">
+        <h1>Wanna Save Me - Expense Tracker</h1>
+    </a>
+</header>
+<main>
+    <nav class="flex">
+        <section class="home">
+            <a href="../index.html">Home</a>
+        </section>
+        <section class="account-balance">
+            <a href="account-balance.html">Account Balance</a>
+        </section>
+        <section>
+            <a href="transactions.html">Transactions</a>
+        </section>
+    </nav>
+    
     <body>
         <header>
             <h1>Transactions</h1>
@@ -12,23 +34,22 @@
                 <a href="transactions.html">Transactions</a>
                 <a href="account-balance.html">Account Balance</a>
             </nav>
-        </header>
-        <main>
-            <section>
-                <h2>Transaction History</h2>
-                <ul>
-                    <li>
-                        <p>-$10.00, Coffee</p>
-                    </li>
-                    <li>
-                        <p>-$5.00, Donut</p>
-                    </li>
-                    <li>
-                        <p>+$500.00, Paycheck</p>
-                    </li>
-                </ul>
-            </section>
-        </main>
-    </body>
-
+    </header>
+    <main>
+        <section>
+            <h2>Transaction History</h2>
+            <ul>
+                <li>
+                    <p><span class="expense">-$10.00</span>, Coffee</p>
+                </li>
+                <li>
+                    <p><span class="expense">-$5.00</span>, Donut</p>
+                </li>
+                <li>
+                    <p><span class="income">+$500.00</span>, Paycheck</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
 </html>

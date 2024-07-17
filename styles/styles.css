@@ -1,3 +1,93 @@
+/*********** General Styles ***********/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50; /* Green for header */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header a.flex {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+header a.flex img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav.flex {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFD700; /* Gold for nav */
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4CAF50; /* Green for nav links */
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.daily-spending, .spending-input {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.daily-spending h3, .spending-input h3 {
+    margin-top: 0;
+    color: #4CAF50; /* Green for headings */
+}
+
+label {
+    font-weight: bold;
+}
+
+input, button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #4CAF50; /* Green for buttons */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
 
 /*********** Home Page ***********/
 
@@ -5,11 +95,3 @@
     background-color: #f2f2f2;
     padding: 20px;
 }
-
-
-/******** Daily Budget Page ********/
-
-
-
-
-/*********** Budget Page ***********/
