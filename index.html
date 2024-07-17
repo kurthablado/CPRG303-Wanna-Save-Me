@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Wanna Save Me - Expense Tracker</title>
+
+    <!-- Style Sheet -->
+     <link rel="stylesheet" href="styles/reset.css">
+     <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+<header>
+    <a href="index.html" class="flex">
+        <img src="" alt="">
+        <h1>Wanna Save Me - Expense Tracker</h1>
+    </a>
+</header>
+<main>
+    <nav class="flex">
+        <section class="home">
+            <a href="index.html">Home</a>
+        </section>
+        <section class="monthly-spending">
+            <a href="monthly-spending.html">Monthly Spending</a>
+        </section>
+        <section>
+            <a href="budget.html">Budgeting</a>
+        </section>
+    </nav>
+    
+    <div class="flex-container">
+        <section class="daily-spending">
+            <h3>Daily Spending Box</h3> 
+        </section>
+    </div>
+
+    <div class="flex-container">
+        <section class="spending input">
+            <form>
+                <label for="expense-name">Expense:</label><br>
+                <input type="text" id="expense-name" name="expense-name" required><br>
+                <br>
+                <label for="expense-amount">Amount:</label><br>
+                <input type="number" id="expense-amount" name="expense-amount" required><br>
+                <br>
+                <label for="expense-date">Date:</label><br>
+                <input type="date" id="expense-date" name="expense-date" required><br>
+                <br>
+                <button type="submit">Add Expense</button>
+            </form>
+        </section>
+    </div>
+
+</main>
+</body>
+</html>
